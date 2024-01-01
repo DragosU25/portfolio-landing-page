@@ -449,7 +449,7 @@ body {
 }
 
 textarea {
-  width: 1017px;
+  width: 100%;
   height: 180px;
   background-color: var(--blue-background);
   border-radius: 3px;
@@ -497,4 +497,206 @@ footer {
 
 .social-media-link:hover .social-media-icon-container {
   background-color: var(--LIGHT-Blue-background);
+}
+
+/* Responsive Designe! */
+
+@media (max-width: 1362px) {
+  .portfolio-list {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-title {
+    text-align: center;
+  }
+
+  .portfolio-line {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1242px) {
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+  }
+
+  .about-me-text {
+    font-size: 16px;
+  }
+
+  .sub-title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 1202px) {
+  .hero-container {
+    gap: 100px;
+  }
+
+  .sub-title {
+    font-size: 24px;
+  }
+
+  .hero-text {
+    line-height: 110%;
+  }
+
+  .about-me-container {
+    gap: 100px;
+  }
+
+  .palmares-list {
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-me-line {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1168px) {
+  .hero-container {
+    gap: 80px;
+  }
+
+  .about-me-container {
+    gap: 80px;
+    padding: 50px 150px;
+  }
+
+  .hero-section {
+    padding: 135px 180px 0 130px;
+  }
+}
+
+@media (max-width: 1088px) {
+  .hero-title {
+    font-size: 30px;
+  }
+
+  .coments-containers {
+    gap: 35px;
+  }
+
+  .comments-section {
+    padding: 30px 140px 90px 120px;
+  }
+}
+
+@media (max-width: 1008px) {
+  .hero-title {
+    font-size: 34px;
+  }
+
+  .hero-text {
+    font-size: 18px;
+  }
+  .hero-container-image {
+    display: none;
+  }
+
+  .hero-section {
+    padding: 140px 130px;
+  }
+
+  .hero-container-text {
+    margin: 0;
+  }
+
+  .about-me-group-of-images {
+    display: none;
+  }
+
+  .about-me-container {
+    padding: 140px 130px;
+  }
+
+  .about-me-description {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .about-me-text {
+    font-size: 18px;
+  }
+
+  .portfolio-section {
+    padding: 60px 50px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .coments-containers {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .request-containers {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .request-input {
+    max-width: 100%;
+  }
+
+  .palmares-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 854px) {
+  .palmares-container {
+    padding: 48px 120px;
+  }
+  .palmares-list {
+    flex-direction: column;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .form-line {
+    width: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-section {
+    padding: 70px 65px;
+  }
+
+  .about-me-container {
+    padding: 50px 65px;
+  }
+
+  .form-container {
+    padding: 50px 20px;
+  }
+
+  .comments-section {
+    padding: 25px 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 475px) {
 }
